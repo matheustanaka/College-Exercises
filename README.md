@@ -1,11 +1,5 @@
-#Exercício de HTML
-
-## O que é pra fazer
+#COLLEGE WEB DEVELOPMENT 🧐
+##Objective
 ---
-Crie uma página web básica com ao menos três parágrafos de texto contendo os elementos vistos até agora.head, body, title, h1...h6, p, br, pre, b, u, em, i, abbr, kbd, small, a. A entrega do arquivo html deve ser pelo Blackboard.
+I created this repository to make a backup of my exercises and works to see in the future 🤔
 
-### Observações:
-        Evite uso de acentos, espaços e caixa alta no nome dos arquivos
-        Teste antes de enviar
-        Use caminhos relativos ao adicionar links para imagens e outros arquivos
-        Mande um arquivo zipado mantendo a estrutura de pastas.
