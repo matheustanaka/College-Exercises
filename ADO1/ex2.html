@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2</title>
+</head>
+<body>
+    <div>
+        <h1>Música do mês</h1>
+        <div>
+            <img src="./img/juice.jpg" alt="Juice WRLD" width="200px">
+        </div>
+        <audio src="./img/Juice WRLD Let Me Know (I Wonder Why Freestyle) (Official Audio).mp3" autoplay controls muted></audio>
+    </div>
+    <div>
+        <h2>TOP 10 MÚSICAS DA SEMANA</h2>
+        <ol>
+            <li>SICKO MODE - Travis Scott</li>
+            <li>R U Mine - Arctic Monkeys</li>
+            <li>No Place - RUFUS DU SOL</li>
+            <li>Car Radio - Twenty one pilots</li>
+            <li>Nobody - NAS</li>
+            <li>Close to me - Laica</li>
+            <li>Let go - Ark</li>
+            <li>Black Magic - Magic Wands</li>
+            <li>Next to me - Vintage Culture</li>
+            <li>The Gateway - Red Hot Chili Peppers</li>
+        </ol>
+    </div>
+    <form>
+        <div>
+            <h3>Insira suas informações</h3>
+            <label>Nome Completo</label>
+            <input type="text" name="nome" id="nome" required>            
+        </div>
+        <div>
+            <label>Data de Nascimento</label>
+            <input type="date" name="data" required>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="seuEmail@email.com" required>
+        </div>
+        <div>
+            <label>Gênero</label>
+            <br>
+            <input type="radio" name="genero" value="masculino">masculino
+            <br>
+            <input type="radio" name="genero" value="feminino">feminino
+            <br>
+            <input type="radio" name="genero" value="nenhum dos anteriores">nenhuma das anteriores
+        </div>
+        <div>
+            <label>Telefone</label>
+            <input type="tel" placeholder="(DD) 00000-0000" required>
+        </div>
+        <div>
+            <h3>O que você achou da música que estava tocando?</h3>
+            <select>
+                <option value="excelente">Excelente</option>
+                <option value="boa">Boa</option>
+                <option value="regular">Regular</option>
+                <option value="ruim">Ruim</option>
+                <option value="pessima">Péssima</option>
+              </select>
+        </div>
+        <div>
+            <h3>Qual o seu estilo de música preferido?</h3>
+            <input type="checkbox" value="Javascript">Rock
+            <br>
+            <input type="checkbox" value="Java">Samba
+            <br>
+            <input type="checkbox" value="Python">Sertanejo
+            <br>
+            <input type="checkbox" value="C++">MPB
+            <br>
+            <input type="checkbox" value="Go">Eletronica
+        </div>
+        <div>
+            <h3>Deixe aqui seu Comentário</h3>
+            <textarea name="" id="" cols="25" rows="15"></textarea>
+        </div>
+        <button type="submit">Enviar </button>
+</body>
+</html>

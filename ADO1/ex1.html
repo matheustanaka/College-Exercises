@@ -1,0 +1,77 @@
+<!--
+1. Faça uma página de formulário contendo os seguintes campos e atendendo aos requisitos descritos abaixo:
+ 
+a. Nome completo: obrigatório.
+b. Data de nascimento: obrigatório, recomendando o formato dd/mm/aaaa.
+c. E-mail: obrigatório, incluindo um exemplo do formato válido.
+d. Gênero: opcional.
+e. Telefone: obrigatório.
+f. Linguagem preferida: obrigatório. Deve haver ao menos cinco linguagens de programação diferentes para que o usuário selecione apenas uma delas.
+g. Nível de experiência: obrigatório. Deve ser possível digitar valores de 0 a 10.
+h. Comentários: opcional. Área de texto.
+i. Um botão de envio.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - ADO 1</title>
+</head>
+<body>
+    <h1>Exercício 1</h1>
+
+    <form>
+        <div>
+            <label>Nome Completo</label>
+            <input type="text" name="nome" id="nome" required>            
+        </div>
+        <div>
+            <label>Data de Nascimento</label>
+            <input type="date" name="data" required>
+        </div>
+        <div>
+            <label>Email</label>
+            <input type="email" name="email" placeholder="seuEmail@email.com" required>
+        </div>
+        <div>
+            <label>Gênero</label>
+            <br>
+            <input type="radio" name="genero" value="masculino">masculino
+            <br>
+            <input type="radio" name="genero" value="feminino">feminino
+            <br>
+            <input type="radio" name="genero" value="nenhum dos anteriores">nenhuma das anteriores
+        </div>
+        <div>
+            <label>Telefone</label>
+            <input type="tel" placeholder="(DD) 00000-0000" required>
+        </div>
+        <div>
+            <label>Qual a sua Linguagem de programação preferida?</label>
+            <br>
+            <input type="radio" name="prog" value="Javascript">Javascript
+            <br>
+            <input type="radio" name="prog" value="Java">Java
+            <br>
+            <input type="radio" name="prog" value="Python">Python
+            <br>
+            <input type="radio" name="prog" value="C++">C++
+            <br>
+            <input type="radio" name="prog" value="Go">Go
+        </div>
+        <div>
+            <label>Seu nível de experiência</label>
+            <input type="number" min="0" max="10">
+        </div>
+        <div>
+            <label>Deixe aqui seu Comentário</label>
+            <br>
+            <textarea name="" id="" cols="25" rows="15"></textarea>
+        </div>
+        <button type="submit">Enviar </button>
+    </form>
+</body>
+</html>
