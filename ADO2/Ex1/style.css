@@ -1,16 +1,56 @@
-.center {
+.first {
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 150px;
 }
-
-table, th, td {
-    border:1px solid black;
-    border-collapse: collapse;
+.two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.five {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.six {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.eight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nine {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ten {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-table {
-    display: grid;
-    width: 50%;
+table, th {
+    border:1px solid black;
+
 }
