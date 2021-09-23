@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    width: 450px;    
+    height: 300px;
+    margin: 10px;
+    border-radius: 2px;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+img:hover {
+    border: 8px solid blue;
+}
