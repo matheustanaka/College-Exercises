@@ -1,0 +1,1 @@
+# 4. Crie uma tabela com 4 colunas (Título, Autor, Editora, Ano). Escolha ao menos 10 livros de sua preferência para colocar na tabela. Cada coluna deve ter uma cor de fundo diferente. A coluna Ano deve estar alinhada à direta e as demais colunas à esquerda. Centralize a tabela no meio da página.
