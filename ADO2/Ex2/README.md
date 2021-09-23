@@ -1,0 +1,1 @@
+# 2. Crie uma página contendo as áreas mostradas nas figuras em anexo. Utilize grids e flexbox para organizar esse conteúdo. Se a orientação da tela do dispositivo (viewport) for paisagem, a página deve ser mostrada como na figura "ado2-ex2-paisagem". Caso a orientação seja retrato a página de aparecer como na figura "ado2-ex2-retrato".
