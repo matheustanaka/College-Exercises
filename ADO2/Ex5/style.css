@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#news1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+    padding: 50px 30px 30px 50px;
+}
+
+#news2 {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+    padding: 50px 30px 30px 50px;
+}
+
+#news3 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+
+    padding: 50px 30px 30px 50px;
+}
+
+img {
+    width: 50%;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+p {
+    padding: 10px;
+}
+
+a {
+    display: block;
+}
+
+h1 {
+    color: crimson;
+}
+
+i {
+    font-size: 15px;
+}
+
+b {
+    color: red;
+}
