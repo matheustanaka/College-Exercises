@@ -1,0 +1,1 @@
+# 7. Crie uma página contendo um ou mais elementos (pode ser <a>, <h1> ou <p>). Escolha uma cor de fundo para esses elementos. Mude a cor de fundo e o tipo de fonte do elemento ao passar o mouse sobre ele.
