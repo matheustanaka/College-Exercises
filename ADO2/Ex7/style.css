@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 200px;
+
+}
+
+.box {
+    padding: 20px;
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+
+    border-radius: 8px;  
+    box-shadow: 5px 5px 5px 5px #ebebeb;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box:hover {
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+
+h1:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: yellow;
+}
+
+h2:hover {
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
+}
+
+p:hover {
+    color: greenyellow;
+}
