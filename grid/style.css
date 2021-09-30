@@ -99,6 +99,19 @@
         "footer";
     }
 
+    main p {
+      padding: 7px;
+    }
+
+    #sidebar ul {
+      display: flex;
+      flex-direction: row;
+    }
+
+    #sidebar a {
+      margin: 1rem;
+    }
+
 
   }
   
