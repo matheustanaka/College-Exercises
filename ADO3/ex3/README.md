@@ -1,1 +1,1 @@
-# 3. Crie uma página contendo uma caixa de texto, um botão e uma caixa de seleção <select> contendo ao menos três opções. Faça com que o conteúdo digitado na caixa de texto seja incluído nas opções do elemento <select> ao clicar no botão.
+# 3. Crie uma página contendo uma caixa de texto, um botão e uma caixa de seleção select contendo ao menos três opções. Faça com que o conteúdo digitado na caixa de texto seja incluído nas opções do elemento select ao clicar no botão.
