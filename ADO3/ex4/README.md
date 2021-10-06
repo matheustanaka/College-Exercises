@@ -1,0 +1,1 @@
+# 4. Crie uma página contendo um título e um parágrafo com um pequeno texto. Ao passar o mouse sobre o parágrafo, o seu texto deve ser duplicado.
