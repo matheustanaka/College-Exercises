@@ -20,3 +20,5 @@ button.onclick = function () {
     select.appendChild(optionCar);
 
 }
+
+//Reference: https://www.w3schools.com/jsref/met_node_appendchild.asp
