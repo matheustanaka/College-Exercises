@@ -1,1 +1,0 @@
-# 1. Crie uma página contendo uma pirâmide feita com tabelas.

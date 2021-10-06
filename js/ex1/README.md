@@ -1,1 +1,0 @@
-# 1. Escreva um programa que exibe a data atual e o dia da semana.
