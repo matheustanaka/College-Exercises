@@ -1,18 +1,22 @@
+//querying the selectors
 const select = document.querySelector('select');
 const input = document.querySelector('input');
 const button = document.querySelector('button');
 
+//adding a function on click that will add new options inside of select
 button.onclick = function () {
+    //the let newCar will receive a input value
     let newCar = input.value;
 
+    //Input value will receive a string
     input.value = '';
 
-    const optionCar = document.createElement('option')
-    const listText = document.createElement('span')
+    //Creating an option element
+    const optionCar = document.createElement('option');
 
-    optionCar.appendChild(listText);
+    //OptionCar receive a new Car 
     optionCar.textContent = newCar;
+    //Adding new option inside of select
     select.appendChild(optionCar);
 
-    input.focus();
 }
