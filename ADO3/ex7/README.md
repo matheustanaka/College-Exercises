@@ -1,0 +1,1 @@
+# 7. Crie uma página com uma caixa de texto e um botão. Ao digitar um texto e clicar no botão, a página deve exibir a quantidade de vogais contidas no texto. Ao clicar no botão com a caixa de texto vazia, uma mensagem deve aparecer dizendo que não é possível contar vogais em um conteúdo vazio.
