@@ -1,0 +1,1 @@
+# 9. Crie duas variáveis para representar uma pessoa. Toda pessoa deve ter os seguintes atributos: nome, idade, altura, peso e sexo. Em seguida, crie uma função para adicionar o atributo cpf para pessoas maiores de 18 anos. Crie outra função que recebe uma pessoa e imprime, no console do navegador, os seus atributos.
