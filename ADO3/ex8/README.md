@@ -1,0 +1,1 @@
+# 8. Crie uma variável usando JSON para representar produtos (alimentos) de uma loja de supermercados. Este produto deve ter: código, descrição, peso, valor e validade. Preencha esses campos com algum valor para criar o objeto. Em seguida, crie função para imprimir, no console do navegador, os atributos do objeto JSON recebido.
