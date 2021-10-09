@@ -2,7 +2,7 @@
 const people1 = new Object ();
     people1.name = "Matheus";
     people1.age = 19;
-    people1.height = 185;
+    people1.height = 185+ "cm";
     people1.weight = 70 + "kgs",
     people1.sex = "masculine"
     
