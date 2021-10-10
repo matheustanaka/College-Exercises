@@ -12,6 +12,6 @@ Exercises about HTML
 ---
 Exercises about CSS
 
-## ADO3 Folder - JS 🚧
+## ADO3 Folder - JS ✔️
 ---
 Exercises about JS
