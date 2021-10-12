@@ -1,48 +1,25 @@
-function getInputValue(){
-    let input = event.target.innerText
-    console.log(input);
-    printValue(input);
+const form = document.getElementById('form');
+form.addEventListener('submit', handleSubmit);
+
+function handleSubmit (event) {
+    event.preventDefault();
+
+    const temp = getInputNumberValue('temp');
+    const result = document.getElementById('result');
+
+
+    const farenheit = (temp * (1.8)) + 32;
+
+    const layout = `
+
+    <h1>Aqui está o Resultado</h1>
+    <p>A temperatura em Farenheit é ${farenheit} </p>
+
+    `;
+    result.innerHTML = layout;
+
 }
 
-function printValue(val){
-    let out = document.querySelector("#result");
-    let current = out.innerHTML;
-    if(out.innerHTML == "0"){
-      
-      if(val!= "C" && val!="DEL"){ 
-        out.innerHTML ="";
-        out.innerHTML += val;
-      }
-    }
-    else{
-      if(val == "DEL" ){
-        console.log(current[current.length-1]);
-        out.innerText = current.slice(0,-1);
-        if(out.innerHTML.length <= 1){
-          out.innerHTML = "0";
-        }
-      }
-      if(val!= "C" && val!="DEL" && val!="="){ 
-        out.innerHTML += val;
-      }
-      if(val =="="){
-        let res = out.innerHTML;
-        out.innerHTML = eval(res);
-      }
-      if(val == "C"){
-        out.innerHTML = "0";
-      }
-
-      if(val == "=") {
-          let res = out.innerHTML;
-          out.innerHTML = eval(res);
-      }
-    }
-    
-  }
-
-let buttons = document.getElementsByTagName('button');
-console.log(buttons.length);
-for(var i =0; i<buttons.length;i++){
-    buttons[i].setAttribute('onclick','getInputValue()');
+function getInputNumberValue(id) {
+    return Number(document.getElementById(id).value);
 }
