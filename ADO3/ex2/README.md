@@ -1,1 +1,1 @@
-# 2. Crie uma página contendo um elemento h1, um elemento p e um botão. Ao clicar no botão, deve ser inserido um elemento <h3> de cor vermelha entre h1 e p. Adicione algum conteúdo de texto nos elementos para que eles sejam visíveis na página.
+# 2. Crie uma página contendo um elemento h1, um elemento p e um botão. Ao clicar no botão, deve ser inserido um elemento h3 de cor vermelha entre h1 e p. Adicione algum conteúdo de texto nos elementos para que eles sejam visíveis na página.
