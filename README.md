@@ -1,8 +1,7 @@
 # COLLEGE WEB DEVELOPMENT 🧐
 ## Objective 🎯
 ---
-I created this repository to make a backup of my exercises to see in the future,
-I hope to see my evolution over the years 😎
+The main objective is practice programming, so here you'll find exercises that I received from my University 
 
 ## ADO1 Folder - HTML ✔️
 ---
