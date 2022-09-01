@@ -6,7 +6,7 @@
 
 <body>
     <form action="calculoimc.php" method="post">
-        Digite o valor do IMC que deseja classificar: <input type="text" name="imcValue"><br>
+        Digite o valor do IMC que deseja classificar: <input type="text" name="userWeight"><br>
         <input type="submit">
     </form>
 </body>
